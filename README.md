@@ -3,7 +3,7 @@ which is based on the interaction with hardware inputs.
 Basically the game is programmed as a state machine where
 the states serve as individual levels.
 The game was implemented for a
-[BeagleBone Black][http://beagleboard.org/black], so all directly
+[BeagleBone Black](http://beagleboard.org/black), so all directly
 hardware related files are specific to this, but as the level of abstraction
 is quite high it should be fairly easy to port the code to a different
 hardware.
